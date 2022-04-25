@@ -5,19 +5,53 @@
 }
 
 body{
+
+    background-color: hsl(0, 0%, 81%);
+
+    font-size: 13px;
+
+    
+}
+
+main{
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-main{
-    width: 80%;
-    padding: 5%;
+.user{
+    height: 70px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: repeat(2, 32px);
 }
+
+.user h3, .user h4{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
+.user img{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.grid-container {
+
+    padding: 10%;
+    width: 90%;
+
+}
+
 
 .grid-container div{
     padding: 5%;
+    width: 90%;
 }
 
 .grid-container div:nth-of-type(1){
@@ -42,4 +76,40 @@ main{
 .grid-container div:nth-of-type(5){
     background-color: hsl(219, 29%, 14%);
     color: white;
+}
+
+.quote{
+    font-size: 1.5em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    
+    color: white;
+    opacity: 70%;
+}
+
+.desc{
+    font-size: 2em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    
+    color: white;
+    padding-bottom: 1em;
+}
+
+.user h4{
+    color: white;
+    opacity: 50%;
+}
+
+
+.white-background{
+    color: hsl(210, 46%, 95%);
+}
+
+.white-background h3, .white-background h4{
+    color: hsl(215, 10%, 34%)
+}
+
+.white-background .desc, .white-background .quote{
+    color: hsl(215, 10%, 34%);
 }
