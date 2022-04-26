@@ -310,6 +310,7 @@ main{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(14, 200px);
+        font-size: 1.4em;
     }
 }
 
