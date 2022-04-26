@@ -254,9 +254,10 @@ main{
 @media only screen  and (max-width: 700px){
 
     .grid-container{
+        padding-bottom: 200px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(15, 100px);
+        grid-template-rows: repeat(14, 155px);
     }
 
 
@@ -297,7 +298,7 @@ main{
         grid-column-end: 1;
 
         grid-row-start: 11;
-        grid-row-end: 15;
+        grid-row-end: 14;
     }
     
 }
