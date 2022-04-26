@@ -245,7 +245,7 @@ main{
 
 @media only screen and (max-height:800px){
     body{
-        height: 900px;
+        height: 1150px;
         align-items:baseline;
     }
 
