@@ -21,18 +21,22 @@ body{
 
     background-color: rgba(237,242,248,255);
 
-    height: 100vh;
+    height: 1150px;
     width: 100vw;
+
+    overflow-x: hidden;
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 main{
     display: flex;
     justify-content: center;
-    align-items: center;
+
+    margin-top: 4em;
+
 }
 
 /*-----------------------------------------------------*/
@@ -56,7 +60,7 @@ main{
     column-gap: 1em;
 
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr) ;
 
 
 
@@ -139,7 +143,7 @@ main{
 
 .review p{
     line-height: 1.6;
-    margin-top: 1em;
+    padding-top: 2em;
     width: 80%;
     text-align: justify;
     margin: auto;
@@ -179,7 +183,7 @@ main{
     padding-top: 1em;
     width: 85%;
 
-    margin: auto;
+    margin: 0 auto;
     display: grid;
 
     grid-template-columns: 15% 85%;
@@ -311,6 +315,10 @@ main{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(14, 200px);
         font-size: 1.4em;
+    }
+
+    .review p{
+        margin-top: 0.5em;
     }
 }
 
