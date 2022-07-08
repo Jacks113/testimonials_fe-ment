@@ -5,3 +5,6 @@ Technologies used:
   - JS
   - CSS + CSS Grid
   - HTML
+  
+  Live page:
+    - https://jack-testimonials.netlify.app/
